@@ -1,0 +1,12 @@
+sudo apt install apache2
+sudo apt install php libapache2-mod-php php-mysql
+sudo apt install php libapache2-mod-php php-mysql
+tar -xvf latest.tar.gz
+sudo mv wordpress/ /var/www/html
+sudo systemctl restart apache2
+sudo systemctl status apache2
+ cd /var/www/html/
+ls
+cd wordpress/
+ nano wp-config.php
+past the code copied from the php (wordpree website)

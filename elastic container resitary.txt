@@ -1,0 +1,29 @@
+https://beta.openai.com/docs/quickstart/introduction
+https://awscli.amazonaws.com/AWSCLIV2.msi
+
+docker install  using commands
+sudo user mode -a -G docker ubuntu
+sudo apt install aws-cli
+
+sudo apt install awscli            etablish connection   between  (ec2 and aws account) patical machine
+
+
+
+create role  click on ec2   and action  security  and modify iam role
+amazonec2containerrigestry
+
+
+sudo apt install awscli            etablish connection   between  (ec2 and aws account) patical machine
+
+
+create  elastic container resgistry     
+ create  repositary  same name in  docker image bulid and while creating ecr
+
+
+
+
+take dockerfile code 
+run and bulid 
+then  see image in ecr im amamzon 
+
+

@@ -1,0 +1,29 @@
+we can deploy  war are  jar are  html    in two methods      i mannual method
+                                                           automation methodimj
+
+
+ 
+in manual method           lanuch ec2instance   and attach role
+                                                                         automation method     like     clod   bean stalk 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

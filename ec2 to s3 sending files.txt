@@ -1,0 +1,63 @@
+s3 t0 ec2  
+create a iam role  amazons3access and attach to ec2       
+
+
+
+upload files in s3 
+
+
+
+sudo apy update 
+
+sudo apt install awscli    
+
+aws s3 ls
+
+
+
+upload file from local to s3
+
+aws s3 cp sai s3://saiprakash678                   #    here sai in local name  file      s3://saipraksh678  is bucket name in s3
+
+
+
+
+
+upload files from   s3 to local  
+
+ aws s3 cp s3://saiprakash678/poc.txt poc        ##   here s3://saiprakash678 bucket name    ### /poc.txt is file s3        ##  name should be given to store in local (space) file name poc
+
+
+
+
+ aws s3 mb s3://ant2525  ###   create  bucket using  command in s3  
+
+
+
+
+
+
+ tar -czvf rakesh.tar.gz        converting   files into zip   are tar 
+
+
+aws s3 cp rakesh.tar.gz s3://backup2525         moving  zip into bucket  
+
+
+
+aws s3 cp s3://backup2525/rakesh.tar.gz .       to upload  back into local (ubuntu)
+
+
+
+
+du -sh      size of file 
+
+tar xzvf rakesh.tar.gz .     exctracting   the files    
+
+
+aws s3 cp rm s3://bucketname/objectname   to delete files  
+
+
+
+
+
+  

@@ -1,0 +1,31 @@
+########
+deploy a application on webserver (tomcat) war file 
+we need to create role iam role: "amazon full access" 
+and attach it to ec2instance 
+
+
+
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt install git
+sudo apt install openjdk-8-jdk -y
+sudo apt install tomcat9 tomcat9-admin tomcat9-docs tomcat9-common git -y
+sudo systemctl start tomcat9
+cd /var/lib/tomcat9/
+ls
+cd webapps/
+ls
+sudo systemctl stop tomcat9
+cd /var/lib/tomcat9/webapps                                                 ####  default the war file will store in  webapps
+ls
+sudo rm -rf ROOT
+sudo apt install awscli -y
+ cd
+ aws s3 ls
+ aws s3 cp s3://rakesh789/helloworld.war /tmp/helloworld.war                   ####    /tmp/helloworld.war means  we can change the name to heeloworld.war
+cd /tmp/
+ls
+ sudo cp helloworld.war /var/lib/tomcat9/webapps/ROOT.war
+ sudo systemctl start tomcat9
+ ls /var/lib/tomcat9/webapps/                                     

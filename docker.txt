@@ -1,0 +1,9 @@
+https://beta.openai.com/docs/quickstart/introduction
+https://awscli.amazonaws.com/AWSCLIV2.msi
+
+docker install  using commands
+sudo user mode -a -G docker ubuntu
+sudo apt install aws-cli
+
+sudo apt install awscli            etablish connection   between  (ec2 and aws account) patical machine
+

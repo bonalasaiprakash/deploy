@@ -1,0 +1,31 @@
+AmazonEKSWorkerNodePolicy
+
+
+AmazonEKS_CNI_Policy
+
+
+
+
+AmazonEC2ContainerRegistryReadOnly
+
+
+ aws eks --region us-east-1 update-kubeconfig --name rakesh                        connectining to cluster
+
+
+
+ kubectl get ns                   defalut name spaces
+
+
+
+kubectl create namespace team     kubectl delete  namespace team
+
+
+
+kubectl describe pod  my-first-pod     kubectl expose pod my-first-pod  --type=NodePort --port=80 --name=my-first-service --namespace=default   
+
+
+
+
+kubectl describe svc my-first-service
+
+

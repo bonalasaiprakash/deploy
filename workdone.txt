@@ -1,0 +1,51 @@
+
+aws
+1 - creatining  a  wordpress website and  attaching  a  database
+ 
+2 - creatining  a  elastic kubernate services  (eks)  deploying a nodejs app
+
+3 -  learned difference between  two and three tire archieture    (theory)
+
+4 -  creatining a static website  in s3  and  accesining  through a  cloud front 
+
+5  -  creating a wesite in ec2 instance  and  accessing through load blancer (application load blancer)
+
+6 -   creatining a IAM  user,roles (according to services and attaching to services like ec2,eks)
+
+7 -   creatining a rds and attaching t0 ec2 instance 
+
+8 -   creatining a elestic container  resgitaroy (ecR)  buldining a image and    storining a image in aws
+
+9 -  creatining a natgetway and  connecting to private ec2 instance   
+
+10 - 
+
+
+
+
+terraform 
+
+1 -   creatining a  ec2 instance  and   attachining  it  to security group
+
+2 -   creatining a vpc, subnents, routetable, internetgetway   (know how to frame a network  private and public)      
+
+3 -   creatining a variables 
+ 
+4 -   creatining a modules 
+ 
+5 -   creatining a s3 bucket and   storning  a  statefile 
+ 
+6 -   learned   version  constrants  in terraform  which creats trouble in production
+
+7  - creatining a database
+ 
+8 -  hands on in mete-arguments  like depends -on , count, for-each, (lifecycle-createbeforedestory , preventdestory,  ignorechanges)
+
+9 -   deploying a website  through  terraform  using user data
+
+10 -    
+
+
+
+
+ 
