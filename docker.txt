@@ -7,3 +7,7 @@ sudo apt install aws-cli
 
 sudo apt install awscli            etablish connection   between  (ec2 and aws account) patical machine
 
+################################################
+
+ sudo usermod -aG docker ubuntu
+
