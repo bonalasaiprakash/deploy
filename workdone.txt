@@ -44,6 +44,17 @@ terraform
 9 -   deploying a website  through  terraform  using user data
 
 10 -    
+#############################################################
+
+
+jenkines
+continoues intigration (cI)  with jenkines and sonarqube 
+ci     with  buldings images with docker   and deploy in a  elastic container services(ecs)
+
+
+
+
+
 
 
 
